@@ -1,0 +1,12 @@
+
+#List of sites for which we have data mapping
+Sites:
+  domain.com:
+    #List of data fields with corresponding selector
+    ItemName:   .itemInfo .name
+    Price:      .itemInfo .price
+    UpdatedAt:  span.datestamp
+
+  bhphotovideo.com:
+    ProductTitle:   [data-selenium='productTitle']
+    Price:          [data-selenium='pricingPrice']
