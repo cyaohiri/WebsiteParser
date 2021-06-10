@@ -9,7 +9,7 @@ NAME
 SYNOPSIS
 ========
 
-**gSheetWriter** \[**-ws**|**--work-sheet** "Inventory"] \[_sheetname_] _data_  
+**gSheetWriter** \[**-ws**|**--work-sheet** "Inventory"] _sheetname_ _data_  
 **gSheetWriter** \[**-h**|**--help**|**-v**|**--version**]
 
 DESCRIPTION

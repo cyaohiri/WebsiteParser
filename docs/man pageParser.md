@@ -30,14 +30,14 @@ Sites:
     UpdatedAt:  span.datestamp
 ```
 
-The resulting data is output as JSON data in the following format:
+The input URL is always added to the output as the last key. The resulting data is output as JSON data in the following format:
 
 ```JSON
 	{
-		"URL": "<_URL_>",
 		"ItemName": "A classic name",
 		"Price": "$1000",
-		"UpdatedAt": "2021-05-04"
+		"UpdatedAt": "2021-05-04",
+		"URL": "<_URL_>"
 	}
 ```
 
