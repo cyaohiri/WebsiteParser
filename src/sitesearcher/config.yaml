@@ -1,0 +1,7 @@
+Sites:
+  domain.com:
+    QueryString:  search?keyword=
+    ResultsContainer:  "#searchResults"
+  bhphotovideo.com:
+    QueryString:  /c/search?Ntt=
+    ResultsContainer:  .product_19pae40ejOyj6V7StHfjYz
